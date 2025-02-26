@@ -49,6 +49,10 @@ namespace ValoresEspeciais
             Console.WriteLine(k);
             Console.WriteLine(j); 
 
+            float f3, f4; 
+            f3 = f4 = 50000.0f;
+            Console.WriteLine(f3 == f4 + 0.0001f);
+
         }
     }
 }
