@@ -17,8 +17,8 @@ namespace Cilindro
 
 
              double V = a_convert *Math.Pow(r_convert,2) * pi;
-             
-             Console.WriteLine (V);
+             string c = $"{V:f3}";
+             Console.WriteLine (c);
 
 
         }
