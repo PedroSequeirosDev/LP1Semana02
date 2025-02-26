@@ -7,8 +7,7 @@ namespace SmoothOperator
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
-            Console.WriteLine("insere numero inteiro");
-            string a = Console.ReadLine();
+            string a = Console.ReadLine("Insere número inteiro: ");
             sbyte n = sbyte.Parse(a);
             Console.WriteLine(--n);
             Console.WriteLine(++n);
