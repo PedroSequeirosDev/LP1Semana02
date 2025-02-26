@@ -43,6 +43,12 @@ namespace ValoresEspeciais
             Console.WriteLine((uint)(i+1));
             Console.WriteLine((uint)(i+5));
 
+            float k = 2 * float.MaxValue;
+            float j = float.MaxValue +1; 
+
+            Console.WriteLine(k);
+            Console.WriteLine(j); 
+
         }
     }
 }
