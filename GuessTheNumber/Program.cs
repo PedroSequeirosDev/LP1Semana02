@@ -27,10 +27,6 @@ namespace GuessTheNumber
 
              int s =int.Parse(question);
 
-            
-
-
-
 
                 if (s < 0 | s > 30)
                 {
@@ -50,8 +46,8 @@ namespace GuessTheNumber
 
                 else if (s == numberToGuess)
                 {
-                Console.WriteLine($"You found the hidden number{numberToGuess} after {turns} tries.");
                 turns++;
+                Console.WriteLine($"You found the hidden number{numberToGuess} after {turns} tries.");
                 break;
                 }
 
