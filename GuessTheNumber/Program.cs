@@ -35,12 +35,12 @@ namespace GuessTheNumber
                 }
                 else if (s<numberToGuess)
                 {
-                    Console.WriteLine($"The hidden number is higher than {s}. Try Again.");
+                    Console.WriteLine($"The hidden number is higher than {s}. Try again.");
                     turns++;
                 }
                 else if(s>numberToGuess)
                 {
-                 Console.WriteLine($"The number is lower than {s}. Try Again.");
+                 Console.WriteLine($"The number is lower than {s}. Try again.");
                  turns++;
                 }
 
