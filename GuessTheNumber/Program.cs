@@ -35,7 +35,7 @@ namespace GuessTheNumber
                 }
                 else if (s<numberToGuess)
                 {
-                    Console.WriteLine($"The hidden number is higher than{s}. Try Again.");
+                    Console.WriteLine($"The hidden number is higher than {s}. Try Again.");
                     turns++;
                 }
                 else if(s>numberToGuess)
@@ -47,7 +47,7 @@ namespace GuessTheNumber
                 else if (s == numberToGuess)
                 {
                 turns++;
-                Console.WriteLine($"You found the hidden number{numberToGuess} after {turns} tries.");
+                Console.WriteLine($"You found the hidden number {numberToGuess} after {turns} tries.");
                 break;
                 }
 
