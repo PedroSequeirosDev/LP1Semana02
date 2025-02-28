@@ -11,7 +11,7 @@ namespace GuessTheNumber
         {
           
 
-             string question, response;
+             string question;
 
              
 
